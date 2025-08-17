@@ -1,0 +1,14 @@
+{
+  "name": "buzz-presale-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.4.7",
+    "@solana/web3.js": "^1.95.3",
+    "express": "^4.19.2"
+  }
+}
