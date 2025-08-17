@@ -7,12 +7,14 @@
 // - Works on Railway out of the box
 
 import express from "express";
+import cors from "cors";
 import { Connection, PublicKey, Keypair } from "@solana/web3.js";
 import { getOrCreateAssociatedTokenAccount, transfer, burn } from "@solana/spl-token";
 import pkg from "pg";
 
 const { Pool } = pkg;
 const app = express();
+app.use(cors({ origin: "*"}));
 app.use(express.json());
 
 // ---------- ENV ----------
