@@ -6,10 +6,11 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "@solana/spl-token": "^0.4.7",
-    "@solana/web3.js": "^1.95.3",
-    "express": "^4.19.2",
-    "pg": "^8.11.3"
-  }
+  "@solana/spl-token": "^0.4.7",
+  "@solana/web3.js": "^1.95.3",
+  "express": "^4.19.2",
+  "pg": "^8.11.3",
+  "cors": "^2.8.5"
+}
 }
 
