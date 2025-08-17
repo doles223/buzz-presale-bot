@@ -1,5 +1,5 @@
 // BUZZ.AI Presale Bot (Solana) — full, production-ready
-// - Watches TREASURY for incoming SOL
+// - Watches TREASURY for incoming SO
 // - Auto-airdrops BUZZ from DISTRIBUTOR wallet
 // - Optional presale cap + live presale burn (extra/take)
 // - Transparency endpoints: stats, balances, lp plan, proofs
